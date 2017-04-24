@@ -1,0 +1,21 @@
+<resources>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="gps_permission_is_needed_">
+        Acesso ao GPS é necessário para mostrar a previsão o seu local atual!</string>
+    <string name="enable_gps">Ativar GPS</string>
+    <string name="cancel">Cancelar</string>
+    <string name="finding_your_position">Procurando sua localização...</string>
+    <string name="place_name">Cidade</string>
+    <string name="clean_sky">Céu limpo</string>
+    <string name="tweenty_seven">27</string>
+    <string name="min">Min:</string>
+    <string name="max">Max:</string>
+    <string name="temperature">temperatura</string>
+    <string name="toggle_view">alternar vista</string>
+    <string name="gps_required">GPS Necessário</string>
+    <string name="gps_must_be_enabled_">
+        O GPS deve estar ativo para mostrar a previsão do tempo do seu local atual!</string>
+    <string name="clouds">Nublado</string>
+    <string name="rain">Chuvoso</string>
+    <string name="fail_forecast_swipe_again">Não foi possível mostrar a previsão, puxe para baixo para tentar novamente.</string>
+</resources>

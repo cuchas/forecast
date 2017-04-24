@@ -1,4 +1,20 @@
 <resources>
-    <string name="app_name">Forecast</string>
+    <string name="app_name" translatable="false">Forecast Explorer</string>
     <string name="title_activity_maps">Map</string>
+    <string name="gps_permission_is_needed_">GPS access is necessary in order to show forecast for your current location!</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="cancel">Cancel</string>
+    <string name="finding_your_position">Finding your position...</string>
+    <string name="place_name">City Name</string>
+    <string name="clean_sky">Clean sky</string>
+    <string name="tweenty_seven">27</string>
+    <string name="min">Min:</string>
+    <string name="max">Max:</string>
+    <string name="temperature">temperature</string>
+    <string name="toggle_view">toggle view</string>
+    <string name="gps_required">GPS Required</string>
+    <string name="gps_must_be_enabled_">GPS must be enabled inorder to show the forecast of your current location!</string>
+    <string name="clouds">Clouds</string>
+    <string name="rain">Rain</string>
+    <string name="fail_forecast_swipe_again">fail forecasting, swipe to try again!</string>
 </resources>

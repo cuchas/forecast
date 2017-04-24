@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:layout_marginTop="@dimen/grid"
+    android:layout_marginBottom="@dimen/grid">
+
+
+    <!--android:layout_marginLeft="@dimen/grid"-->
+    <!--android:layout_marginStart="@dimen/grid"-->
+    <!--android:layout_marginRight="@dimen/grid"-->
+    <!--android:layout_marginEnd="@dimen/grid"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/grid">
+
+        <TextView
+            android:id="@+id/text_place_name_forecast"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_grid"
+            android:layout_marginEnd="@dimen/grid"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_marginTop="@dimen/text_grid"
+            android:text="@string/place_name" />
+
+
+        <TextView
+            android:id="@+id/text_distance_forecast"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/tweenty_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@id/text_place_name_forecast"
+            android:layout_alignBottom="@id/text_place_name_forecast"
+            android:layout_toEndOf="@id/text_place_name_forecast"
+            android:layout_toRightOf="@id/text_place_name_forecast" />
+
+        <ImageView
+            android:id="@+id/image_icon_forecast"
+            style="@style/AppTheme.MyImage"
+            android:layout_alignLeft="@id/text_place_name_forecast"
+            android:layout_alignStart="@id/text_place_name_forecast"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_marginEnd="@dimen/grid"
+            android:layout_below="@id/text_place_name_forecast"
+            android:src="@drawable/ic_wb_sunny_black_24dp" />
+
+        <TextView
+            android:id="@+id/text_description_forecast"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@id/image_icon_forecast"
+            android:layout_alignBottom="@id/image_icon_forecast"
+            android:layout_toEndOf="@id/image_icon_forecast"
+            android:layout_toRightOf="@id/image_icon_forecast"
+            android:text="@string/clean_sky" />
+
+        <TextView
+            android:id="@+id/text_current_temp_forecast"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@id/image_icon_forecast"
+            android:layout_alignBottom="@id/image_icon_forecast"
+            android:text="@string/tweenty_seven" />
+
+        <TextView
+            android:id="@+id/text_min_forecast"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/image_icon_forecast"
+            android:layout_alignStart="@id/image_icon_forecast"
+            android:layout_below="@id/image_icon_forecast"
+            android:layout_marginBottom="@dimen/text_grid"
+            android:layout_marginEnd="@dimen/grid"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_marginTop="@dimen/text_grid"
+            android:text="@string/min" />
+
+        <TextView
+            android:id="@+id/text_min_temp_forecast"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text_min_forecast"
+            android:layout_marginEnd="@dimen/grid"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_toEndOf="@id/text_min_forecast"
+            android:layout_toRightOf="@id/text_min_forecast" />
+
+        <TextView
+            android:id="@+id/text_max_forecast"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text_min_forecast"
+            android:layout_marginEnd="@dimen/grid"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_toEndOf="@id/text_min_temp_forecast"
+            android:layout_toRightOf="@id/text_min_temp_forecast"
+            android:text="@string/max" />
+
+        <TextView
+            android:id="@+id/text_max_temp_forecast"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text_min_forecast"
+            android:layout_toEndOf="@id/text_max_forecast"
+            android:layout_toRightOf="@id/text_max_forecast"
+            android:text="@string/tweenty_seven" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
