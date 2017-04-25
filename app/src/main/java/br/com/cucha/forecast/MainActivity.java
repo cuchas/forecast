@@ -326,7 +326,6 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-        //// TODO: 18/04/17
     }
 
     @Override
